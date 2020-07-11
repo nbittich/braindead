@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+    zookeeper:
+      discovery:
+        enabled: true
+      connect-string: ${ZOOKEEPER_URL:192.168.99.102:2181}

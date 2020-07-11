@@ -1,0 +1,14 @@
+**/.git
+**/.idea
+**/target
+**/.mvn
+**/.classpath
+**/.project
+**/mvn*
+**/*.iml
+
+
+**/node_modules
+**/dist
+**/node
+**/*.log
