@@ -1,0 +1,19 @@
+application:
+  basePath: ${PROJECT_BASE_PATH:${java.io.tmpdir}/braindead}
+spring:
+  application:
+    name: WebsiteV2
+  profiles:
+    include: rest, rest-override, mongodb, logging, database, security
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-origins: '*'
+        allowed-methods: GET
+        allowed-headers: '*'
+---
+spring:
+  profiles: rest-override
+server:
+  port: ${SERVER_PORT:8088}
