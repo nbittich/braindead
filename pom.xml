@@ -36,7 +36,7 @@
     <elasticsearch.version>7.8.0</elasticsearch.version>
     <spring.cloud.version>Hoxton.SR6</spring.cloud.version>
     <feign-form.version>3.8.0</feign-form.version>
-    <ant.version>1.10.8</ant.version>
+    <ant.version>1.10.9</ant.version>
     <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
   </properties>
 
